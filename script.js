@@ -52,6 +52,8 @@ function pesquisa_bin(){
         }else{
             f = m;
         }
+        console.log("O valor de m =" , m);
+        console.log("Valor de i e f: ", i , f);
         n = decimais(i,f);
         console.log("Pesquisa bin",n);
     }
